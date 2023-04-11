@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Post from "../components/Post.astro";
-import { GuitarraType } from "../class/GuitarraClass";
 
 const url = `${import.meta.env.PUBLIC_API_URL}/posts?populate=imagen`;
 const respuesta = await fetch(url);
